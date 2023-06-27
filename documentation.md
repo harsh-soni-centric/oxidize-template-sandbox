@@ -63,6 +63,24 @@ Once clicked you can provide the Name of the project and origin. Afterwhich you 
 
 ## Step 3: Creation of an entity in oxidize
 
+### Go to your project by clicking on the project name
+![ScreenShot](/doc_snapshot/3.png)
+
+### Click on create button as specified in below snapshot
+![ScreenShot](/doc_snapshot/4.png)
+
+### Provide name of the entity and plural name
+Plural name generally used when we are generating star UML diagram. In our case we are using "Transaction" as normal name and "Transactions" as plural name. Now if any table has one-many relationship (one table : Claim and many table: Transaction ) the star UML will use plural name to represent relationships "Transactions".
+![ScreenShot](/doc_snapshot/5.png)
+
+### Provide necessary tags to the attribute.
+For example in below snapshot you see an entity "transaction" has tagged called 
+"domain:Claim" and "Trans:true". 
+This means that when we can use this tags to customize DDL and DML statment.
+For Example: While generating entity name we can attach a domain. So entity name will be formed like Claim_Transaction.
+we have also specified as True in Trans tag which can help us to generate the different bi-temporal template for  table and SP.
+![ScreenShot](/doc_snapshot/6.png)
+
 ## Step 4: Creation of attribute class in oxidize
 
 ## Step 5: Creation of attribute within entity
