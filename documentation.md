@@ -52,6 +52,13 @@ By default this setting is turned on, You can copy and paste below code in your 
 
 ## Step 2: Creation of a project in oxidize
 
+### To create a project in oxidize go to
+https://oxidize.centricconsulting.com/project
+
+Click on create button as specified in below snapshot
+![ScreenShot](/doc_snapshot/1.png)
+
+
 ## Step 3: Creation of an entity in oxidize
 
 ## Step 4: Creation of attribute class in oxidize
