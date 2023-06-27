@@ -59,7 +59,7 @@ Click on create button as specified in below snapshot
 ![ScreenShot](/doc_snapshot/1.png)
 
 Once clicked you can provide the Name of the project and origin. Afterwhich you can click on Create button to create the project.
-![ScreenShot](/doc_snapshot/2.png)
+![ScreenShot](/doc_snapshot/2.PNG)
 
 ## Step 3: Creation of an entity in oxidize
 
