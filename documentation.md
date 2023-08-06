@@ -211,7 +211,24 @@ Active (To be discussed with Jeff)
 (To be discussed with Jeff if we have the mapping of list of templates available)
 
 ## Step 7: Generating the output of oxidize project
-(To be discussed with Jeff)
+There is two way to generate the output of a project.
+
+1 Is to use the oxidize buttton on an oxidize project
+You can select a project of your choice for which you want to generate the DDL and DML statement and then click on the oxidize button as highlighted in below snapshot
+![ScreenShot](/doc_snapshot/14.png)
+
+2 To use the oxidize sandbox. 
+
+If there is some issue in oxidize application and it is not working as expected, you can use the sandbox version. (You need to contact someone from oxidize support team)
+
+Support Team will download the metadata from the oxidize front end and using the metadata they will render the templates.
+
+To export the metadata you can use below button from the oxidize project
+![ScreenShot](/doc_snapshot/15.png)
+
+
+
+
 
 ## Step 8: Excel upload and download to change the metadata within the project.
 
