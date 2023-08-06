@@ -131,6 +131,21 @@ To create a new attribute class You need to follow below step
     | timestamp   | DATETIME2(7)    |
     | Default    | Varchar(200)    |
 
+Example of How above table can be configured in oxidize front end application
+![ScreenShot](/doc_snapshot/9.png)
+
+4. Code Generation  (To be edited based upon input from Jeff Kanel)
+
+Tags
+suffix:_Dt 
+longsuffix:_Date
+
+Configurations
+
+Active
+
+
+Once you done with this you can save the attribute class by clicking on save button.
 
 ## Step 5: Creation of attribute within entity
 
