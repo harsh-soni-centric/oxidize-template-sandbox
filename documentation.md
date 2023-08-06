@@ -105,8 +105,16 @@ To create a new attribute class You need to follow below step
 
     ![ScreenShot](/doc_snapshot/8.png)
 
+3. Now in this step You need to define the premitive data type of your attribut class.
+    For Example:
 
-
+    | Premitive_Type    | Output_Value |
+    | --------          | ------- |
+    | Text  | varchar   |
+    | character | CHAR     |
+    | boolean    | Bit    |
+    | bit    | Bit    |
+    | Integer (Preision not specified)    | INT    |
 
 ## Step 5: Creation of attribute within entity
 
