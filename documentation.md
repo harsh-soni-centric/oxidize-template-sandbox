@@ -161,11 +161,17 @@ General:
 ![ScreenShot](/doc_snapshot/11.png)
 
 Name: Provide name of attribute
+
 Definition : Provide Decription of your attribute
+
 Derication : Method of derriving a calculated result from input
+
 Grain : If selected it indicates this will uniquely identify records within an entity (To be confirmed with Jeff)
+
 Quality Rule : If you want to validate the input value with some text/regex pattern 
 (To be discussed with Jeff)
+
+
 
 
 Return Profile:
@@ -174,20 +180,29 @@ Return Profile:
 ![ScreenShot](/doc_snapshot/12.png)
 
 Required : If selected it will not allow null values. DDL data type will defined as not null. (To be confirmed with Jeff)
+
 Mulitple Values :If selected it means it will one to many relationship (To be confirmed with Jeff)
+
 Return Value  : Indicates whether an attribute returns and entity class or Attribute
 Attribute Class: If selected you need to provide a attribute class which can use to map the data type of an attribute
+
 Reference : Reference to an entity, This option is used to specify the foreign key.
+
 Context : Primary.... (To be discussed with Jeff)
+
+
+
 
 Code Generation:
 
 
 ![ScreenShot](/doc_snapshot/13.png)
 
-Tags
-Configurations
-Active
+Tags (To be discussed with Jeff)
+
+Configurations (To be discussed with Jeff)
+
+Active (To be discussed with Jeff)
 
 
 
