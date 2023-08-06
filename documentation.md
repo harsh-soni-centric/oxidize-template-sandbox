@@ -85,10 +85,10 @@ we have also specified as True in Trans tag which can help us to generate the di
 
 Attribute Class is used to define attribute types in a project.
 To create a new attribute class You need to follow below step
-    1. Select your project and go to -> Attribute Class option as shown in below snapshot
+1. Select your project and go to -> Attribute Class option as shown in below snapshot
     ![ScreenShot](/doc_snapshot/7.png)
     
-    2. Provide Name of an attribute Class along with definition, descriptor, descriptor variations
+2. Provide Name of an attribute Class along with definition, descriptor, descriptor variations
     
     The purpose of descriptor is:
     
