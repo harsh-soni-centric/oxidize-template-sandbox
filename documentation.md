@@ -156,6 +156,7 @@ Below is snapshot for same
 ![ScreenShot](/doc_snapshot/10.png)
 
 General: 
+![ScreenShot](/doc_snapshot/11.png)
 
 Name: Provide name of attribute
 Definition : Provide Decription of your attribute
@@ -166,6 +167,7 @@ Quality Rule : If you want to validate the input value with some text/regex patt
 
 
 Return Profile:
+![ScreenShot](/doc_snapshot/12.png)
 
 Required : If selected it will not allow null values. DDL data type will defined as not null. (To be confirmed with Jeff)
 Mulitple Values :If selected it means it will one to many relationship (To be confirmed with Jeff)
@@ -175,6 +177,7 @@ Reference : Reference to an entity, This option is used to specify the foreign k
 Context : Primary.... (To be discussed with Jeff)
 
 Code Generation:
+![ScreenShot](/doc_snapshot/13.png)
 
 Tags
 Configurations
