@@ -110,11 +110,27 @@ To create a new attribute class You need to follow below step
 
     | Premitive_Type    | Output_Value |
     | --------          | ------- |
-    | Text  | varchar   |
+    | Text(Precision not set)  | varchar(200)   |
+    | Text(Precision 30)  | varchar(30)   |
     | character | CHAR     |
     | boolean    | Bit    |
     | bit    | Bit    |
     | Integer (Preision not specified)    | INT    |
+    | Integer (Preision <= 0)    | BIT    |
+    | Integer (Preision <= 1)   | SMALLINT    |
+    | Integer (Preision <= 2)    | SMALLINT    |
+    | Integer (Preision <= 4)    | INT    |
+    | Decimal (if attribute class name has currency in it)   | MONEY    |
+    | Decimal(Precision =3, scale =7)    | DECIMAL(3,7)    |
+    | Decimal(Precision and scale not set)    | DECIMAL(20,8)    |
+    | identifier    | VARCHAR(200)    |
+    | float (Prevision and scale not set)  | Float(20,8)    |
+    | float (Preision =4 scale =3)    | Float(4,3)    |
+    | date    | DATE    |
+    | time    | DATETIME2(7)    |
+    | timestamp   | DATETIME2(7)    |
+    | Default    | Varchar(200)    |
+
 
 ## Step 5: Creation of attribute within entity
 
