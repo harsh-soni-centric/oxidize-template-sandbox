@@ -206,15 +206,16 @@ Active (To be discussed with Jeff)
 
 
 
-## Step 6: Addition of tags in Attribute class
 
-## Step 7: Addition of relationship between two tables in oxidize.
+## Step 6: Using predefined list of the templates based on the best suitable in your case
+(To be discussed with Jeff if we have the mapping of list of templates available)
 
-## Step 8: Using predefined list of the templates based on the best suitable in your case
+## Step 7: Generating the output of oxidize project
+(To be discussed with Jeff)
 
-## Step 9: Generating the output of oxidize project
+## Step 8: Excel upload and download to change the metadata within the project.
 
-## Step 10: Excel upload and download to change the metadata within the project.
+(To be discussed with Jeff if this functionality works or some issues)
 
 
 
