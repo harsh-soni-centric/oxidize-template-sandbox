@@ -134,7 +134,7 @@ To create a new attribute class You need to follow below step
 Example of How above table can be configured in oxidize front end application
 ![ScreenShot](/doc_snapshot/9.png)
 
-4. Code Generation  (To be edited based upon input from Jeff Kanel)
+4. Code Generation  (To be edited based upon input from Jeff )
 
 Tags
 suffix:_Dt 
@@ -148,6 +148,39 @@ Active
 Once you done with this you can save the attribute class by clicking on save button.
 
 ## Step 5: Creation of attribute within entity
+
+To Create an attribute within an entity you can
+Select Project -> Click on your Entity -> Click on Create button 
+
+Below is snapshot for same
+![ScreenShot](/doc_snapshot/10.png)
+
+General: 
+
+Name: Provide name of attribute
+Definition : Provide Decription of your attribute
+Derication : Method of derriving a calculated result from input
+Grain : If selected it indicates this will uniquely identify records within an entity (To be confirmed with Jeff)
+Quality Rule : If you want to validate the input value with some text/regex pattern 
+(To be discussed with Jeff)
+
+
+Return Profile:
+
+Required : If selected it will not allow null values. DDL data type will defined as not null. (To be confirmed with Jeff)
+Mulitple Values :If selected it means it will one to many relationship (To be confirmed with Jeff)
+Return Value  : Indicates whether an attribute returns and entity class or Attribute
+Attribute Class: If selected you need to provide a attribute class which can use to map the data type of an attribute
+Reference : Reference to an entity, This option is used to specify the foreign key.
+Context : Primary.... (To be discussed with Jeff)
+
+Code Generation:
+
+Tags
+Configurations
+Active
+
+
 
 ## Step 6: Addition of tags in Attribute class
 
