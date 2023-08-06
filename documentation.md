@@ -83,6 +83,30 @@ we have also specified as True in Trans tag which can help us to generate the di
 
 ## Step 4: Creation of attribute class in oxidize
 
+Attribute Class is used to define attribute types in a project.
+To create a new attribute class You need to follow below step
+    1. Select your project and go to -> Attribute Class option as shown in below snapshot
+    ![ScreenShot](/doc_snapshot/7.png)
+    2. Provide Name of an attribute Class along with definition, descriptor, descriptor variations
+    
+    The purpose of descriptor is:
+    
+    Assume a case where you want to put a sufix in every attribute with the attribute class. 
+    For example if an attribute name is "coverage" and the class of an attribute is "code".
+    Now if you have selected an option to use enforce descriptor as True and if there isn't any descriptor available in attribute class then in such case attribute name in ddl and dml will be "coverage_code".
+
+    Assume a second example where an attribute name is "coverage" and the class of an attribute is "code".
+    Now if you have selected an option to use enforce descriptor as True and if there is descriptor available with value as "cd" in attribute class then in such case attribute name in ddl and dml will be "coverage_cd".
+
+    Assume a third example where in output you want an attribute name should be "coverage_txt" where class of attribute is "code" and it has a descriptor as "cd". Now in such cases you can use "descriptor variations" to provide different variations of description. In our case we can put "txt" as variation. So while rendering a template if any of the suffix of attribute is matching with the descriptor variation then it would not going to replace the variations. 
+
+    Below is the summary of the snapshot. How it looks like in oxidize frontend.
+
+    ![ScreenShot](/doc_snapshot/8.png)
+
+
+
+
 ## Step 5: Creation of attribute within entity
 
 ## Step 6: Addition of tags in Attribute class
